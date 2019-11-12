@@ -20,7 +20,7 @@ mongoose.connect('mongodb://mongo:27017/docker-node-mongo', {
 });
 
 app.get('/', (req, res) => {
-    res.send('Hello World 1234');
+    res.send('Hello World 123');
 });
 
 app.listen(PORT, HOST);
